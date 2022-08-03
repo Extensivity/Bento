@@ -13,21 +13,21 @@ const CONFIG = {
 	// General
 	name: 'Exten',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Good morning,',
+	greetingAfternoon: 'The sun feels good, doesn\'t it',
+	greetingEvening: 'The perfect time to relax, don\'t you think',
+	greetingNight: 'There is peaceful darkness outside,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'd05b4d4a62b60a1b04d6ea2982cd5b51', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -36,13 +36,13 @@ const CONFIG = {
 	defaultLongitude: '-115.290151',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: true,
+	changeThemeByHour: false,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -53,48 +53,48 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://gmail.com',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://gmail.com/',
-		},
-		{
-			id: '3',
 			name: 'Todoist',
-			icon: 'trello',
+			icon: 'check-square',
 			link: 'https://todoist.com',
 		},
 		{
-			id: '4',
+			id: '3',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
+			id: '4',
+			name: 'Trello',
+			icon: 'trello',
+			link: 'https://www.trello.com',
+		},
+		{
 			id: '5',
 			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			icon: 'headphones',
+			link: 'https://www.reddit.com',
 		},
 		{
 			id: '6',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
+			name: 'Arch Linux',
+			icon: 'cpu',
+			link: 'https://archlinux.org',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Reddit',
+			icon: 'music',
+			link: 'https://reddit.com',
 		},
 		{
 			id: '2',
@@ -135,46 +135,47 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'youtube',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'YouTube',
+					link: 'https://www.youtube.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Anime',
+					link: 'https://animixplay.to/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Netflix',
+					link: 'https://www.netflix.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Hulu',
+					link: 'https://www.hulu.com',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'briefcase',
 			id: '2',
 			links: [
 				{
+					name: 'Portfolio',
+                    link: 'https://portfoliowebsite-extensivity.vercel.app'
+				},
+				{
+					name: 'Github',
+					link: 'https://github.com/',
+				},
+				{
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
 					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Figma',
+					link: 'https://figma.com/',
 				},
 			],
 		},
