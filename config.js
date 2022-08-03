@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: 'Exten',
 	imageBackground: false,
-	openInNewTab: false,
+	openInNewTab: true,
 	twelveHourFormat: true,
 
 	// Greetings
