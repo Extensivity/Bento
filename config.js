@@ -171,7 +171,6 @@ const CONFIG = {
 				{
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
-					link: 'https://www.trello.com',
 				},
 				{
 					name: 'Figma',
