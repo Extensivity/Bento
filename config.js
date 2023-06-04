@@ -144,7 +144,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Anime',
-					link: 'https://animixplay.to/',
+					link: 'https://www.crunchyroll.com/',
 				},
 				{
 					name: 'Netflix',
